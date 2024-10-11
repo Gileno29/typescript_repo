@@ -30,3 +30,22 @@ type ProdutoLoja={
 };
 
 let newProduto: ProdutoLoja={nome:"tenis", preco:89.99, unidades:5};
+
+/**
+ * arrays
+ */
+
+//formas de declaração de array
+let dados: string[]=["felipe","ana", "adriana"]
+let dados2: Array<string>=["felipe","ana", "adriana"]
+
+//array multi types
+let infos: (string | number)[]=["gileno", 30, "gileno", 30]
+
+/**
+ * Tuplas
+ */
+
+//vetor multi type, mas com ordem definida
+
+let boleto:[string, number, number]=["agua conta", 199.90, 1313112]
