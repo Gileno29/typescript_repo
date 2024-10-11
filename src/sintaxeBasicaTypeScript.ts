@@ -49,3 +49,20 @@ let infos: (string | number)[]=["gileno", 30, "gileno", 30]
 //vetor multi type, mas com ordem definida
 
 let boleto:[string, number, number]=["agua conta", 199.90, 1313112]
+
+/**
+ * Arrays métodos
+ */
+
+// MESMAS FUNCOES DO JAVASCRIPT
+dados.pop()
+
+
+/**
+ * trabalhando com
+ */
+
+//Trabalhando com datas
+ let aniversario:Date = new Date("2022-12-01 05:00")
+
+ console.log(aniversario.toDateString)
