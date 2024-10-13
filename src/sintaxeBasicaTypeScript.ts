@@ -66,3 +66,24 @@ dados.pop()
  let aniversario:Date = new Date("2022-12-01 05:00")
 
  console.log(aniversario.toDateString)
+
+
+
+ /**
+  * funcoes async
+  */
+
+ async function getDatabase(id:number): Promise<string>{
+    return "gileno"
+ }
+
+
+ /**
+  * interfaces
+  */
+
+ interface robot{
+    id: number;
+    name: string;
+ };
+ 
